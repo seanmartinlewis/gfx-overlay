@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atmosphere Logo Overlay</title>
+  </head>
+  <body style="background-color: transparent; margin: 0px">
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyCwIcuxkHnjjAtQNP5EL5bp5OTh-JAAOGI",
+        authDomain: "gfx-overlay.firebaseapp.com",
+        projectId: "gfx-overlay",
+        storageBucket: "gfx-overlay.appspot.com",
+        messagingSenderId: "974357083632",
+        appId: "1:974357083632:web:c8202935a14909ccaf9935",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+    </script>
+  </body>
+</html>
