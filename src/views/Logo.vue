@@ -1,6 +1,6 @@
 <template>
   <div :style="`justify-content:${justify}`" class="background-qp">
-    <img src="../assets/atm.png" alt="" />
+    <img src="../assets/atm_small.png" alt="" />
   </div>
 </template>
 
