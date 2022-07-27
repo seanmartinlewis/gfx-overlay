@@ -1,8 +1,5 @@
 <template>
-  <div
-    :style="`height:${height}px; width:${width}px;justify-content:${justify}`"
-    class="background-qp"
-  >
+  <div :style="`justify-content:${justify}`" class="background-qp">
     <img src="../assets/atm.png" alt="" />
   </div>
 </template>
@@ -33,6 +30,8 @@ const justify = computed(() => {
 <style scoped lang="css">
 .background-qp {
   display: flex;
+  width: 100vw;
+  height: 100vh;
 }
 img {
   max-height: 200px;
