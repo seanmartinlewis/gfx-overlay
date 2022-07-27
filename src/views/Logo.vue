@@ -34,6 +34,7 @@ const justify = computed(() => {
   height: 100vh;
 }
 img {
-  max-height: 200px;
+  max-height: 75px;
+  padding: 20px;
 }
 </style>
